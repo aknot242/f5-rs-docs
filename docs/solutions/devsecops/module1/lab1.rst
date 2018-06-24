@@ -249,16 +249,16 @@ review the app-test job :guilabel:`console output`
    
 scroll to the bottom of the page, you should see the response with :guilabel:`request rejected`, and the failure reason as :guilabel:`unexpected response returned`
 
-this is an indication that ASM has blocked the request. in our case it is a false positive. 
+This is an indication that ASM has blocked the request. In our case, it is a false positive. 
 
 
 
 
    |jenkins056|
    
-.. Note:: in this lab secops uses the same WAF policy template for many apps.
-   we don't want to create a 'snowflake' waf policy. so with this failure dave will escalete to secops. 
-   that ensures that the setting will be reviewd and if needed the policy template will get updated. 
+.. Note:: In this lab secops uses the same WAF policy template for many apps.
+   We don't want to create a 'snowflake' waf policy. So with this failure, Dave will escalate to secops. 
+   This ensures that the setting will be reviewed, and if needed the policy template will get updated. 
    
    
 .. |jenkins010| image:: images/jenkins010.PNG 
